@@ -41,7 +41,7 @@ Pod::Spec.new do |s|
   #
 
   # s.license      = "MIT (example)"
-  s.license      = { :type => "MIT", :file => "LICENSE" }
+  s.license      = "Copyright (c) 2018年 Barry Allen. All rights reserved."
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
