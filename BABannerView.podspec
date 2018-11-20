@@ -15,8 +15,8 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "BABannerView.podspec"
-  s.version      = "1.0.0"
+  s.name         = "BABannerView"
+  s.version      = "1.0.1"
   s.ios.deployment_target = "8.0"
   s.summary      = "Banner View, a simple banner view."
 
@@ -26,6 +26,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+  An ios banner view, which is beatiful and comfortable.
                    DESC
 
   s.homepage     = "https://github.com/zhanghao19920218/BABannerView"
@@ -80,7 +81,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/zhanghao19920218/BABannerView", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/zhanghao19920218/BABannerView.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
